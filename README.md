@@ -27,7 +27,7 @@ You can manage your API key at [Hubcap API Keys](https://hubcapmanifest.com/api-
 
 ## Installation
 
-1. Download `HubcapUI-v1.0.zip` from the [Releases](../../releases) page.
+1. Download the newest `HubcapUI` ZIP from the [Releases](../../releases) page.
 2. Fully exit Steam using **Steam -> Exit**.
 3. Extract the downloaded ZIP.
 4. Find your Steam installation folder, which is the folder containing `steam.exe`.
