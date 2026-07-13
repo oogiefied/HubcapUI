@@ -1,25 +1,25 @@
 # HubcapUI
 
-HubcapUI adds Hubcap controls directly to Steam without requiring a separate launcher, installer, or public debugging port.
+HubcapUI adds Hubcap controls directly to Steam without requiring a separate launcher or installer.
 
-It lets you download, remove, and manage Lua files from the Steam Store and Library, displays your Hubcap usage, supports Multiplayer Mode mappings, and can automatically organize Lua games into a Steam collection.
+It lets you download, remove, and manage Lua files from the Steam Store and Library, displays your Hubcap usage, supports Multiplayer Mode, and can automatically organize Lua games into a Steam collection.
 
 ## Features
 
 - Download or remove Lua directly from Steam Store pages.
 - Manage installed Lua through Lua Settings dropdowns in the Steam Library.
 - Open or remove Lua files directly from Library pages.
-- Enable Multiplayer Mode for individual games using the Spacewar networking App ID.
+- Enable Multiplayer Mode for individual games.
 - See Multiplayer Mode indicators beside enabled games in the Library list.
 - Automatically handle DLC and its base game.
 - View daily Hubcap usage.
 - Edit your Lua folder and API key from Steam.
 - Keep games with Lua organized using Group Lua.
 - Automatically refresh when Lua files or Hubcap settings change.
-- Check for HubcapUI updates when Steam starts and every three hours while Steam is open.
+- Check for HubcapUI updates automatically.
 - Review release changes and choose **Update Now** or **Later**.
-- Download, verify, and install future DLL updates through a safe Steam restart.
-- No separate launcher, installer, or public debugging port.
+- Install future updates from HubcapUI.
+- No separate launcher or installer.
 
 ## Requirements
 
@@ -52,13 +52,12 @@ The release also provides a standalone `mswsock.dll`. The ZIP and standalone dow
 
 ## Updating
 
-HubcapUI v1.0.3 and newer check for stable updates automatically.
+HubcapUI v1.0.3 and newer check for updates automatically.
 
-- When an update is available at startup, a Windows changelog window offers **Update Now** or **Later**.
+- When an update is available, HubcapUI shows the changelog and offers **Update Now** or **Later**.
 - Choosing **Later** keeps an Update button available across Steam pages.
-- Clicking the in-Steam Update button opens the changelog and update options again.
-- HubcapUI downloads the release's standalone `mswsock.dll`, verifies it, and asks to restart Steam before replacing the loaded DLL.
-- The updater keeps the original DLL available for rollback if replacement fails.
+- Clicking the Update button opens the changelog and update options again.
+- Follow the prompts to install the update and restart Steam.
 
 You can still update manually:
 
@@ -92,11 +91,11 @@ HubcapTool must be installed and configured before HubcapUI can download or mana
 
 ### Multiplayer Mode
 
-Multiplayer Mode maps the selected game's networking App ID to Spacewar (480). It may help compatible setups find the same lobbies, but multiplayer compatibility is not guaranteed. Removing a game's Lua file through HubcapUI also removes its Multiplayer Mode mapping.
+Multiplayer Mode may help compatible setups find and join the same lobbies, but compatibility is not guaranteed. Removing a game's Lua file through HubcapUI also turns off Multiplayer Mode for that game.
 
 ### An update fails
 
-HubcapUI leaves the current DLL installed when downloading or verification fails. If replacement fails after Steam closes, it attempts to restore the original DLL before relaunching Steam. You can always use the manual update steps above.
+If an automatic update does not complete, use the manual update steps above.
 
 ### Logs
 
