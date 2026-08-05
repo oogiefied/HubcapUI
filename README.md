@@ -9,7 +9,7 @@ It lets you download, remove, and manage Lua files from the Steam Store and Libr
 - Download or remove Lua directly from Steam Store pages.
 - Manage installed Lua through Lua Settings dropdowns in the Steam Library.
 - Open or remove Lua files directly from Library pages.
-- Enable Multiplayer Mode for individual games.
+- Enable Multiplayer Mode (works for some games).
 - See Multiplayer Mode indicators beside enabled games in the Library list.
 - Automatically handle DLC and its base game.
 - View daily Hubcap usage.
