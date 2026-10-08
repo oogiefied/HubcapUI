@@ -15,11 +15,17 @@ It lets you download, remove, and manage Lua files from the Steam Store and Libr
 - View daily Hubcap usage.
 - Edit your Lua folder and API key from Steam.
 - Keep games with Lua organized using Group Lua.
+- Set up CloudRedirect providers and manage cloud-save settings from Steam.
+- Download CloudRedirect and manage its updates separately from HubcapUI.
+- View HubcapTools update status, release notes, and verified prepared updates.
+- Collect detailed startup and runtime logs for troubleshooting.
 - Automatically refresh when Lua files or Hubcap settings change.
 - Check for HubcapUI updates automatically.
 - Review release changes and choose **Update Now** or **Later**.
 - Install future updates from HubcapUI.
 - No separate launcher or installer.
+
+Verified working with Steam build **1788652215**.
 
 ## Requirements
 
@@ -54,7 +60,7 @@ The raw `mswsock.dll` release asset is used by automatic updates for compatibili
 
 HubcapUI v1.0.3 and newer check for updates automatically.
 
-Updating from v1.0.9 to v1.1.0 automatically migrates HubcapUI from `mswsock.dll` to `cfgmgr32.dll` after the usual Update Now and Restart & Update prompts. Steam performs an additional automatic restart to complete the migration. Existing settings, Lua files, and unrelated HubcapTool DLLs remain in place. The old Safe Mode game detection and startup recovery workaround have been removed.
+Updating from v1.0.9 to v1.1.0 or newer automatically migrates HubcapUI from `mswsock.dll` to `cfgmgr32.dll` after the usual Update Now and Restart & Update prompts. Steam performs an additional automatic restart to complete the migration. Existing settings, Lua files, and unrelated HubcapTool DLLs remain in place. The old Safe Mode game detection and startup recovery workaround have been removed.
 
 - When an update is available, HubcapUI shows the changelog and offers **Update Now** or **Later**.
 - Choosing **Later** keeps an Update button available across Steam pages.
