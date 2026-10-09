@@ -4,6 +4,16 @@ HubcapUI adds Hubcap controls directly to Steam without requiring a separate lau
 
 It lets you download, remove, and manage Lua files from the Steam Store and Library, displays your Hubcap usage, supports Multiplayer Mode, and can automatically organize Lua games into a Steam collection.
 
+## Latest release: v1.2.1
+
+- Fixed the settings cog failing to open outside Library after navigating between Steam pages.
+- Improved click responsiveness by processing buffered events immediately.
+- Fixed a reconnect race that could leave Hubcap's UI buttons unresponsive.
+- Removed expired page sessions and added a settings fallback when no visible web page is available.
+- Improved diagnostics for page connections, slow responses, and UI injection failures.
+
+Verified working on: Steam build 1788652215
+
 ## Features
 
 - Download or remove Lua directly from Steam Store pages.
@@ -25,7 +35,7 @@ It lets you download, remove, and manage Lua files from the Steam Store and Libr
 - Install future updates from HubcapUI.
 - No separate launcher or installer.
 
-Verified working with Steam build **1788652215**.
+Verified working on: Steam build 1788652215
 
 ## Requirements
 
