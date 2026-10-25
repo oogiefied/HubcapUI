@@ -4,16 +4,27 @@ HubcapUI adds Hubcap controls directly to Steam without requiring a separate lau
 
 It lets you download, remove, and manage Lua files from the Steam Store and Library, displays your Hubcap usage, supports Multiplayer Mode, and can automatically organize Lua games into a Steam collection.
 
-## Latest release: v1.2.3
+## Latest release: v1.3.0
 
-Verified working on: Steam build 1791918634
+### What's new
 
-- Multiplayer Mode now also configures device-account login for Epic Online Services (EOS) alongside the existing Spacewar (480) networking remap.
-- At Steam startup, automatically adds missing EOS entries for games mapped to `480`, creating the EOS section if needed.
-- Disabling Multiplayer Mode removes the game from both settings.
-- Startup checks run locally and only save changes when needed. No additional background runners, backend requests, or marker files.
+- Added a **Menu Location** option in Advanced Settings. Keep the existing Game Settings dropdown or move game actions into Steam's Manage submenu. The dropdown remains the default.
+- Added support for plugin settings, accessible through a gear beside plugins that provide them.
+- Added support for Windows notifications from plugins.
 
-Multiplayer compatibility remains game-dependent.
+### Fixes and improvements
+
+- Improved response reliability when Steam refreshes its internal interface.
+- Fixed plugin confirmation dialogs displaying incorrectly outside game pages.
+- Fixed Game Settings controls sometimes appearing inside the Hubcap Settings panel.
+- Fixed plugin actions missing from the dropdown when registered after startup.
+- Updated the CloudRedirect download source.
+
+Existing plugins remain supported. Changing the menu location takes effect after saving, without restarting Steam.
+
+### Thanks
+
+Thanks to [Glitxh (@Glitxhhh)](https://github.com/Glitxhhh) for the plugin improvements, menu-location option, reliability fixes, and CloudRedirect source update.
 
 ## Features
 
