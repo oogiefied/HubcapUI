@@ -4,27 +4,19 @@ HubcapUI adds Hubcap controls directly to Steam without requiring a separate lau
 
 It lets you download, remove, and manage Lua files from the Steam Store and Library, displays your Hubcap usage, supports Multiplayer Mode, and can automatically organize Lua games into a Steam collection.
 
-## Latest release: v1.3.0
+## Latest release: v1.3.1
+
+Verified working on: Steam build 1794424036
 
 ### What's new
 
-- Added a **Menu Location** option in Advanced Settings. Keep the existing Game Settings dropdown or move game actions into Steam's Manage submenu. The dropdown remains the default.
-- Added support for plugin settings, accessible through a gear beside plugins that provide them.
-- Added support for Windows notifications from plugins.
+- Added download progress for HubcapTools updates.
+- Downloaded HubcapTools installers now open automatically.
 
 ### Fixes and improvements
 
-- Improved response reliability when Steam refreshes its internal interface.
-- Fixed plugin confirmation dialogs displaying incorrectly outside game pages.
-- Fixed Game Settings controls sometimes appearing inside the Hubcap Settings panel.
-- Fixed plugin actions missing from the dropdown when registered after startup.
-- Updated the CloudRedirect download source.
-
-Existing plugins remain supported. Changing the menu location takes effect after saving, without restarting Steam.
-
-### Thanks
-
-Thanks to [Glitxh (@Glitxhhh)](https://github.com/Glitxhhh) for the plugin improvements, menu-location option, reliability fixes, and CloudRedirect source update.
+- Improved stats responsiveness during background update checks.
+- Improved HubcapTools update reliability with automatic retries.
 
 ## Features
 
@@ -47,7 +39,7 @@ Thanks to [Glitxh (@Glitxhhh)](https://github.com/Glitxhhh) for the plugin impro
 - Install future updates from HubcapUI.
 - No separate launcher or installer.
 
-Verified working on: Steam build 1791918634
+Verified working on: Steam build 1794424036
 
 ## Requirements
 
