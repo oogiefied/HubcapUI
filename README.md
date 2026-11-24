@@ -1,6 +1,6 @@
 # HubcapUI
 
-***DOESNT WORK WITH MILLENIUM***
+!!!DOESNT WORK WITH MILLENIUM!!!
 
 HubcapUI adds Hubcap controls directly to Steam without requiring a separate launcher or installer.
 
