@@ -1,5 +1,7 @@
 # HubcapUI
 
+***DOESNT WORK WITH MILLENIUM***
+
 HubcapUI adds Hubcap controls directly to Steam without requiring a separate launcher or installer.
 
 It lets you download, remove, and manage Lua files from the Steam Store and Library, displays your Hubcap usage, supports Multiplayer Mode, and can automatically organize Lua games into a Steam collection.
